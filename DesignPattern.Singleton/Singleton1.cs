@@ -40,5 +40,7 @@ namespace DesignPattern.Singleton
         {
             Console.WriteLine("singleton is executing static method...");
         }
+
+        public string Value { get; set; }
     }
 }
